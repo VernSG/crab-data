@@ -16,6 +16,7 @@
             <div class="flex gap-4 text-sm font-medium">
                 <a href="{{ route('input') }}" class="hover:text-teal-200 transition {{ request()->routeIs('input') ? 'text-teal-200 underline underline-offset-4' : '' }}">Input</a>
                 <a href="{{ route('history') }}" class="hover:text-teal-200 transition {{ request()->routeIs('history') ? 'text-teal-200 underline underline-offset-4' : '' }}">Riwayat</a>
+                <a href="{{ route('prediksi') }}" class="hover:text-teal-200 transition {{ request()->routeIs('prediksi') ? 'text-teal-200 underline underline-offset-4' : '' }}">Prediksi</a>
             </div>
         </div>
     </nav>
